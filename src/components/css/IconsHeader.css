@@ -1,0 +1,14 @@
+#icons {
+    color: white;
+    display: flex;
+    cursor: pointer;
+}
+
+.fbIcon,
+.igIcon,
+.ghIcon {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+

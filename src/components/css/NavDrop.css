@@ -1,11 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
 #nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    background-color: black;
+    flex-grow: 2;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(26, 25, 25);
+    padding: 3px;
 }
 
 a {
     text-decoration: none;
     color: white;
+    letter-spacing: 2px;
+    font-size: 10pt;
+    margin: 5px;
 }
+
+.headIcons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-grow: 2;
+    margin: 3px;
+}
+
