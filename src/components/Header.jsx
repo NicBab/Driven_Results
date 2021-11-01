@@ -7,7 +7,6 @@ const Header = () => {
         <>
         <div id="header">
             <img src={driven_logo1} alt="driven_logo" className="logo" />
-            <div className="number">337-123-4567</div>
         </div>
         </>
     )
