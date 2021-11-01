@@ -6,9 +6,10 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Header />
       <NavDrop />
+      <Header />
         <Switch>
+          */nav routes
           <Route exact path="/" component={Home} />
           <Route path="/services" component={Services}/>
           <Route path="/about" component={About}/>

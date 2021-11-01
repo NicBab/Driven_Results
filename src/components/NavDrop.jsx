@@ -1,11 +1,12 @@
 import React from 'react'
 import { Nav } from 'react-bootstrap'
 import { Link } from 'react-router-dom' 
+import './css/NavDrop.css'
 
 const NavDrop = () => {
     return (
       <>
-        <div id="navBar">
+        <div id="nav">
           <Nav.Item>
             <Nav.Link><Link to="/" className="fa-home">Home</Link></Nav.Link>
            </Nav.Item>
