@@ -1,6 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+.navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: start;
+    align-items: center;
+}
 
-#nav {
+.burger {
+    color:white;
+    margin: 5px;
+    font-size: 20pt;
+}
+
+.headIcons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-grow: 2;
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #nav {
     display: flex;
     flex-direction: row;
     flex-grow: 2;
@@ -16,13 +50,5 @@ a {
     letter-spacing: 2px;
     font-size: 10pt;
     margin: 5px;
-}
-
-.headIcons {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    flex-grow: 2;
-    margin: 3px;
-}
+} */
 
