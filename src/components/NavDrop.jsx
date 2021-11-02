@@ -19,6 +19,7 @@ const NavDrop = () => {
            <FaIcons.FaBars onClick={showSideBar}/>
           </Link>
           <div className="headIcons">
+            337 123 4567
             <IconsHeader />
           </div>
         </div>
