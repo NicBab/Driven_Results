@@ -14,6 +14,7 @@ function App() {
           <Route path="/services" component={Services}/>
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact} />
+          */footer routes
         </Switch>
       <Footer />
     </Router>
