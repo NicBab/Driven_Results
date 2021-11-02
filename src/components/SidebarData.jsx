@@ -16,19 +16,19 @@ export const SidebarData = [
     {
         title: "Services",
         path: '/services',
-        icon: <GiIcons.GiBigGear/>,
+        icon: <FaIcons.FaWrench/>,
         cName: 'nav-text'
     },
     {
         title: "About",
         path: '/about',
-        icon: <MdIcons.MdInfoOutline />,
+        icon: <AiIcons.AiFillInfoCircle/>,
         cName: 'nav-text'
     },
     {
         title: "Contact",
         path: '/contact',
-        icon: <AiIcons.AiFillHome />,
+        icon: <AiIcons.AiFillPhone />,
         cName: 'nav-text'
       }
 ]
