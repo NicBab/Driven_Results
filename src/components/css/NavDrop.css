@@ -2,7 +2,7 @@
     background-color: black;
     display: flex;
     flex-direction: row;
-    flex-grow: 3;
+    flex-grow: 2;
     justify-content: start;
     align-items: center;
     height: 3rem;
@@ -86,34 +86,11 @@ span {
     margin: 2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #nav {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 2;
-    justify-content: start;
-    align-items: center;
-    background-color: rgb(26, 25, 25);
-    padding: 3px;
+@media screen and (max-width: 800px) {
+    .nav-menu-items {
+        margin-top: 50px;
+    }
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    letter-spacing: 2px;
-    font-size: 10pt;
-    margin: 5px;
-} */
+
 

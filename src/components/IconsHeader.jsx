@@ -16,7 +16,6 @@ const IconsHeader = () => {
 
     return (
         <div id="icons">
-            <div className="phoneNumber">337-123-4567</div>
             <div className="fbIcon" onClick={onFbIconClick}>{facebookIcon}</div>
             <div className="igIcon" onClick={onIgIconClick}>{instagramIcon}</div>
             <div className="ghIcon" onCLick={onGhIconClick}>{githubIcon}</div>
