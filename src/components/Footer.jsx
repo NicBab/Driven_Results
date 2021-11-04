@@ -5,7 +5,7 @@ import './css/Footer.css'
 const Footer = () => {
     return (
         <Container className="d-flex align-items-end justify-content-around mt-10" 
-            style={{minHeight: "10vh", marginTop: "10px"}}>
+            style={{minHeight: "10vh"}}>
               <>
             <div>
             <footer className="site-footer">
