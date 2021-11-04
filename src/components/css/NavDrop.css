@@ -91,7 +91,7 @@ span {
         margin-top: 50px;
     }
     .nav-text a:active {
-        color: red;
+        color: yellow;
     }
 }
 
