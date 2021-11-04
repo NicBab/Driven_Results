@@ -90,6 +90,9 @@ span {
     .nav-menu-items {
         margin-top: 50px;
     }
+    .nav-text a:active {
+        color: red;
+    }
 }
 
 
