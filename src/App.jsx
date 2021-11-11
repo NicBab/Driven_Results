@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Header, Footer, NavDrop } from './components/index'
-import { Home, About, Services, Contact } from './pages/index'
+import { Home, About, Services, Contact, Policies, History, Blog } from './pages/index'
 import './App.css';
 
 function App() {
@@ -15,6 +15,9 @@ function App() {
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact} />
           */footer routes
+          <Route path="/policies" component={Policies} />
+          <Route path="/history" component={History} />
+          <Route path="/blog" component={Blog} />
         </Switch>
       <Footer />
     </Router>
