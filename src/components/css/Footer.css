@@ -11,6 +11,13 @@ footer {
     display: flex;
     flex-direction: row;
   }
+
+  .footerIcons {
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+    
+  }
   
   footer > section {
     margin-right: 5rem;
